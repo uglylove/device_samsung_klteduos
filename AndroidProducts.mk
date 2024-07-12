@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_klteduos.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_klteduos-user \
+    lineage_klteduos-userdebug \
+    lineage_klteduos-eng
